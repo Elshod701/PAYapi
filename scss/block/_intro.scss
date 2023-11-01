@@ -1,0 +1,453 @@
+.intro {
+  margin-top: 73px;
+  margin-bottom: 74px;
+  &_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .intro_content {
+      max-width: 546px;
+      width: 100%;
+      .intro_title {
+        color: #36536b;
+        font-family: DM Serif Display;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -0.554px;
+      }
+      form {
+        position: relative;
+        max-width: 445px;
+        width: 100%;
+        input {
+          color: #36536b;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          border-radius: 24px;
+          background: #fbfcfe;
+          box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+          outline-color: rgba(97, 97, 211, 0.749);
+          border: none;
+          max-width: 446px;
+          width: 100%;
+          padding: 16px 27px 14px;
+        }
+        .form_btn {
+          color: #fbfcfe;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -0.115px;
+          border-radius: 24px;
+          background: #ba4270;
+          width: 173px;
+          height: 48px;
+          flex-shrink: 0;
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+      }
+      .form_questions {
+        color: #6c8294;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 16px 0 0 27px;
+        span {
+          color: #6c8294;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-decoration-line: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .intro_img {
+    max-width: 758px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 973px) {
+  .intro {
+    margin-top: 20px;
+    margin-bottom: 99px;
+    &_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column-reverse;
+
+      .intro_content {
+        max-width: 546px;
+        width: 100%;
+        .intro_title {
+          color: #36536b;
+          font-family: DM Serif Display;
+          font-size: 72px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 72px;
+          letter-spacing: -0.554px;
+          text-align: center;
+        }
+        form {
+          position: relative;
+          max-width: 445px;
+          width: 100%;
+          margin: 0 auto;
+          input {
+            color: #36536b;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            border-radius: 24px;
+            background: #fbfcfe;
+            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+            outline-color: rgba(97, 97, 211, 0.749);
+            border: none;
+            max-width: 446px;
+            width: 100%;
+            padding: 16px 27px 14px;
+          }
+          .form_btn {
+            color: #fbfcfe;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.115px;
+            border-radius: 24px;
+            background: #ba4270;
+            width: 173px;
+            height: 48px;
+            flex-shrink: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+          }
+        }
+        .form_questions {
+          color: #6c8294;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin: 16px 0 0 27px;
+          text-align: center;
+          span {
+            color: #6c8294;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-decoration-line: underline;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .intro_img {
+      max-width: 458px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-top: 20px;
+    margin-bottom: 99px;
+
+    &_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column-reverse;
+      margin-bottom: 99px;
+
+      .intro_content {
+        max-width: 546px;
+        width: 100%;
+        .intro_title {
+          color: #36536b;
+          font-family: DM Serif Display;
+          font-size: 72px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 72px;
+          letter-spacing: -0.554px;
+          text-align: center;
+        }
+        form {
+          position: relative;
+          max-width: 445px;
+          width: 100%;
+          margin: 0 auto;
+          input {
+            color: #36536b;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            border-radius: 24px;
+            background: #fbfcfe;
+            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+            outline-color: rgba(97, 97, 211, 0.749);
+            border: none;
+            max-width: 446px;
+            width: 100%;
+            padding: 16px 27px 14px;
+          }
+          .form_btn {
+            color: #fbfcfe;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.115px;
+            border-radius: 24px;
+            background: #ba4270;
+            width: 173px;
+            height: 48px;
+            flex-shrink: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+          }
+        }
+        .form_questions {
+          color: #6c8294;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin: 16px 0 0 27px;
+          text-align: center;
+          span {
+            color: #6c8294;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-decoration-line: underline;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .intro_img {
+      max-width: 458px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .intro {
+    margin-top: 20px;
+
+    &_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column-reverse;
+      margin-bottom: 99px;
+
+      .intro_content {
+        max-width: 546px;
+        width: 100%;
+        .intro_title {
+          color: #36536b;
+          font-family: DM Serif Display;
+          font-size: 52px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 62px;
+          letter-spacing: -0.554px;
+          text-align: center;
+        }
+        form {
+          position: relative;
+          max-width: 445px;
+          width: 100%;
+          margin: 0 auto;
+          input {
+            color: #36536b;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            border-radius: 24px;
+            background: #fbfcfe;
+            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+            outline-color: rgba(97, 97, 211, 0.749);
+            border: none;
+            max-width: 446px;
+            width: 100%;
+            padding: 16px 27px 14px;
+          }
+          .form_btn {
+            color: #fbfcfe;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.115px;
+            border-radius: 24px;
+            background: #ba4270;
+            width: 173px;
+            height: 48px;
+            flex-shrink: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+          }
+        }
+        .form_questions {
+          color: #6c8294;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin: 16px 0 0 27px;
+          text-align: center;
+          span {
+            color: #6c8294;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-decoration-line: underline;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .intro_img {
+      max-width: 358px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .intro {
+    margin-top: 20px;
+
+    &_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column-reverse;
+      margin-bottom: 99px;
+
+      .intro_content {
+        max-width: 546px;
+        width: 100%;
+        .intro_title {
+          color: #36536b;
+          text-align: center;
+          font-family: DM Serif Display;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 36px; /* 112.5% */
+          letter-spacing: -0.246px;
+        }
+        form {
+          position: relative;
+          max-width: 327px;
+          width: 100%;
+          margin: 0 auto;
+          height: 70px;
+          input {
+            color: #36536b;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            border-radius: 24px;
+            background: #fbfcfe;
+            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+            outline-color: rgba(97, 97, 211, 0.749);
+            border: none;
+            max-width: 446px;
+            width: 100%;
+            padding: 16px 27px 14px;
+          }
+          .form_btn {
+            color: #fbfcfe;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.115px;
+            border-radius: 24px;
+            background: #ba4270;
+            max-width: 327px;
+            height: 48px;
+            flex-shrink: 0;
+            position: absolute;
+            top: 100%;
+            width: 100%;
+          }
+        }
+        .form_questions {
+          color: #6c8294;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin: 16px 0 0 27px;
+          text-align: center;
+          margin-top: 80px;
+          span {
+            color: #6c8294;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-decoration-line: underline;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .intro_img {
+      max-width: 258px;
+      width: 100%;
+    }
+  }
+}

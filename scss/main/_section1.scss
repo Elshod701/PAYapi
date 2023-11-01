@@ -1,0 +1,224 @@
+.about_us {
+  background-color: #1b262f;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../../assets/image/aboutus-lg-bg.svg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  height: 472px;
+  .aboutUs_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 131px;
+    .aboutUs_left {
+      max-width: 445px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      padding-top: 100px;
+      .left_title {
+        color: #fbfcfe;
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; /* 116.667% */
+        letter-spacing: -0.369px;
+        margin: 0;
+      }
+      .left_info {
+        color: #b6bbc0;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 186.667% */
+      }
+      .left_btn {
+        max-width: 129px;
+        width: 100%;
+        border-radius: 24px;
+        border: 1px solid #fbfcfe;
+        background: transparent;
+        padding: 16px 30px;
+        color: #fbfcfe;
+        text-align: center;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+      }
+    }
+    .aboutUs_right {
+      max-width: 536px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto;
+      column-gap: 62px;
+      row-gap: 54px;
+      margin-top: 130px;
+    }
+  }
+}
+@media screen and (max-width: 1130px) {
+  .about_us {
+    background-color: #1b262f;
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../../assets/image/aboutus-md-bg.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 555px;
+    .aboutUs_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column-reverse;
+      gap: 31px;
+
+      .aboutUs_left {
+        max-width: 445px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        padding-top: 0;
+        .left_title {
+          text-align: center;
+          color: #fbfcfe;
+          font-family: DM Serif Display;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 56px; /* 116.667% */
+          letter-spacing: -0.369px;
+          margin: 0;
+        }
+        .left_info {
+          text-align: center;
+          color: #b6bbc0;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px; /* 186.667% */
+        }
+        .left_btn {
+          max-width: 129px;
+          width: 100%;
+          border-radius: 24px;
+          border: 1px solid #fbfcfe;
+          background: transparent;
+          padding: 16px 30px;
+          color: #fbfcfe;
+          text-align: center;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -0.115px;
+          margin: 0 auto;
+        }
+      }
+      .aboutUs_right {
+        max-width: 536px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 62px;
+        row-gap: 54px;
+        margin-top: 49px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about_us {
+    background-color: #1b262f;
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../../assets/image/aboutus-md-bg.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 670px;
+    .aboutUs_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column-reverse;
+      gap: 31px;
+
+      .aboutUs_left {
+        max-width: 445px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        padding-top: 0;
+        .left_title {
+          text-align: center;
+          color: #fbfcfe;
+          font-family: DM Serif Display;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 56px; /* 116.667% */
+          letter-spacing: -0.369px;
+          margin: 0;
+        }
+        .left_info {
+          text-align: center;
+          color: #b6bbc0;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px; /* 186.667% */
+        }
+        .left_btn {
+          max-width: 129px;
+          width: 100%;
+          border-radius: 24px;
+          border: 1px solid #fbfcfe;
+          background: transparent;
+          padding: 16px 30px;
+          color: #fbfcfe;
+          text-align: center;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -0.115px;
+          margin: 0 auto;
+        }
+      }
+      .aboutUs_right {
+        max-width: 536px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        column-gap: 49px;
+        row-gap: 44px;
+        margin: 0 auto;
+        margin-top: 49px;
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

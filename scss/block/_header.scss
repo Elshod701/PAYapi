@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+.header_container {
+  padding-top: 40px;
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__list {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      max-width: 1110px;
+      height: 48px;
+      margin-left: 64px;
+      &-item {
+        &-link {
+          color: #6d8395;
+          font-family: Public Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+    }
+    &__btn {
+      border-radius: 24px;
+      background: #ba4270;
+      box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+      width: 173px;
+      height: 48px;
+      flex-shrink: 0;
+      color: #fbfcfe;
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.115px;
+    }
+  }
+}
+
+.logo_list {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  max-width: 1440px;
+  height: auto;
+  background-image: url(../../assets/image/header-lg-bg.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.nav_menu {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .header_container {
+    padding-top: 40px;
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        max-width: 1110px;
+        height: 48px;
+        margin-left: 64px;
+        &-item {
+          &-link {
+            color: #6d8395;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+        }
+      }
+      &__btn {
+        border-radius: 24px;
+        background: #ba4270;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        width: 173px;
+        height: 48px;
+        flex-shrink: 0;
+        color: #fbfcfe;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+      }
+    }
+  }
+
+  .logo_list {
+    display: flex;
+    align-items: center;
+  }
+
+  header {
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    background-image: url(../../assets/image/header-md-bg.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .header_container {
+    padding-top: 40px;
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        max-width: 1110px;
+        height: 48px;
+        margin-left: 64px;
+        display: none;
+        &-item {
+          &-link {
+            color: #6d8395;
+            font-family: Public Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+        }
+      }
+      &__btn {
+        border-radius: 24px;
+        background: #ba4270;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        width: 173px;
+        height: 48px;
+        flex-shrink: 0;
+        color: #fbfcfe;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+        display: none;
+      }
+    }
+  }
+
+  .logo_list {
+    display: flex;
+    align-items: center;
+  }
+  .nav_menu {
+    display: inline-block;
+  }
+  header {
+    max-width: 1440px;
+    height: auto;
+    background-image: url(../../assets/image/header-md-bg.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+}
